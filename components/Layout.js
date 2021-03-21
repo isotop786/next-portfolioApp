@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import Head from 'next/head';
 import Router from 'next/router';
 import NProgress from 'nprogress';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 Router.onRouteChangeStart = url =>{
     console.log(url);
@@ -17,7 +17,10 @@ Router.onRouteChangeComplete = ()=>{
     NProgress.done();
 }
 
-Router.onRouteChangeError = ()=> NProgress.done();
+Router.onRouteChangeError = (url)=>{
+    NProgress.done();
+    alert(`${url} route having some issue`);
+} 
 
 const Layout = ({children,title})=>{
     return(
@@ -53,12 +56,12 @@ const Layout = ({children,title})=>{
                 display:flex;
                 justify-content:space-around;
                 padding:1em;
-                background:indigo;
+                background:#333;
                 font-size:1.2rem;
             }
 
             header a{
-                color:darkgrey;
+                color:#eee;
                 text-decoration:none;
                 margin-left:20px;
                 margin-right:20px;

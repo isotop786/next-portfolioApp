@@ -1,15 +1,9 @@
-import react from 'react';
-import ReactDom from 'react-dom';
-
-const data =[
-    
-]
-const App = ()=>{
-    return (
+const Index = ()=>{
+    return(
         <div>
-            Hi this is a next.js project
+            Hey there it's Maruf's Portfolio Website
         </div>
     )
 }
 
-export default App;
+export default Index;

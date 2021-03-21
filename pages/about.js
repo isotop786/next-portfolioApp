@@ -1,10 +1,11 @@
 import Link from 'next/link';
+import Layout from '../components/Layout'
 
 
 const About = ()=>{
     return(
-        <div>
-            <h1>About page</h1>
+        <Layout title="About page">
+
             <p>
                 I am Maruf. I am a fullstack javascript programmer. I am so passionate to write code, and Javascript and it's libraries and freamwork always amaze me.
 
@@ -13,7 +14,7 @@ const About = ()=>{
         <Link href="/">
         <a>Home Page</a>
         </Link>
-        </div>
+        </Layout>
     )
 
 }

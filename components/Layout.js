@@ -3,13 +3,29 @@
 
 import Link from 'next/link';
 import Header from '../components/Header';
+import Head from 'next/head';
+import Router from 'next/router';
+import NProgress from 'nprogress';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
+Router.onRouteChangeStart = url =>{
+    console.log(url);
+    NProgress.start();
+}
 
+Router.onRouteChangeComplete = ()=>{
+    NProgress.done();
+}
+
+Router.onRouteChangeError = ()=> NProgress.done();
 
 const Layout = ({children,title})=>{
     return(
         <div>
+            <Head>
+                <title>Next Portfolio</title>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"/>
+            </Head>
         <header>
             {/* <Header/> */}
             <Link href="/"><a>Home</a></Link>
@@ -55,9 +71,13 @@ const Layout = ({children,title})=>{
             }
 
             footer{
+                text-align:center;
                 padding:1em;
                 background:#666;
                 color:#fff;
+                position: absolute;
+                bottom: 10px;
+                width:100%;
                 
             }
 

@@ -6,10 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
-    "build":"next build",
+    "build": "next build",
     "start": "next start -p $PORT",
-    "heroku-postbuild":"npm run build"
-    
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -30,6 +29,7 @@
   "homepage": "https://github.com/isotop786/next-portfolioApp#readme",
   "dependencies": {
     "next": "^10.0.9",
+    "next-link": "^2.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }

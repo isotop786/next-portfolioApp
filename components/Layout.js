@@ -79,7 +79,7 @@ const Layout = ({children,title})=>{
                 background:#666;
                 color:#fff;
                 position: absolute;
-                bottom: 10px;
+                bottom: 0px;
                 width:100%;
                 
             }

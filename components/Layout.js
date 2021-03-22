@@ -41,7 +41,7 @@ const Layout = ({children,title})=>{
 
         <footer>
            Maruf's Portfolio &copy; {new Date().getFullYear()} 
-             <br/>Built in Next.js on top of React</footer>
+             <br/>Made with Next.js on top of React</footer>
         <style jsx>
         {`
             .root{

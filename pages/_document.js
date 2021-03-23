@@ -17,6 +17,8 @@ export default class MyDocument extends Document{
   integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
   crossorigin="anonymous"
 />
+
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"></meta>
                 </Head>
 
                 <body>

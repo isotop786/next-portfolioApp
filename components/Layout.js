@@ -33,6 +33,7 @@ const Layout = ({children,title})=>{
             <Link href="/"><a>Home</a></Link>
             <Link href="/about"><a>About</a></Link>
             <Link href="/hireme"><a>Hireme</a></Link>
+            <Link href="/blog"><a>Blog</a></Link>
         </header>
         <body className="text-center my-2">
         <h1>{title}</h1>

@@ -25,23 +25,13 @@ import Error from './_error';
     }
 
 
-    // static async getInitialProps(){
-    //    const res = await fetch("http://api.github.com/users/isotop786")
-    //    const data = await res.json();
-
-    //     //returning object 
-    //     return {user: data}
-    // }
-
-
-
     render(){
 
         const {user, statusCode} = this.props;
 
         if(statusCode){
             return (
-                <Error></Error>
+                <Error statusCode={statusCode}></Error>
             )
         }
 

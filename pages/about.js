@@ -45,7 +45,7 @@ import Error from './_error';
                         <p className="lead">
                             I am Full stack web developer. I have Bachelor Degree in Software Engineering from Limkokwing Univerisity, Malaysia.
                             I am currently pursuing  MSc in Software Engineering in <strong className="font-weight-bold">University Putra Malaysia (UPM), Malaysia.</strong>
-                            I am experienced in programming with Javascript. For backend I use Node.js with Express.js, for frontend I use React and Next.js. I am very passionate about programming and creating awesome things.
+                            I am experienced in programming with Javascript. For backend I use Node.js with Express.js, for frontend I use React and Next.js. I am very passionate about programming and creating awesome applications.
                         </p>
                         <h5 className="font-weight-bold">My Core strengths are</h5>
                         <ul className="list-group font-weight-bold">

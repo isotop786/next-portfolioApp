@@ -25,18 +25,20 @@ const Layout = ({children,title})=>{
     return(
         <div>
             <Head>
-                <title>Next Portfolio</title>
+                <title>Maruf's Portfolio</title>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"/>
             </Head>
         <header>
-            {/* <Header/> */}
+            
             <Link href="/"><a>Home</a></Link>
             <Link href="/about"><a>About</a></Link>
+            <Link href="/portfolio"><a>Portfolio</a></Link>
             <Link href="/hireme"><a>Hireme</a></Link>
             <Link href="/blog"><a>Blog</a></Link>
+                      
         </header>
         <body className="text-center my-2">
-        <h1>{title}</h1>
+        <h1 className="display-4">{title}</h1>
         {children}
 
         </body>
@@ -79,10 +81,10 @@ const Layout = ({children,title})=>{
 
             footer{
                 text-align:center;
-                padding:1em;
+                padding:0.25em;
                 background:#666;
                 color:#fff;
-                position: absolute;
+                position: fixed;
                 bottom: 0px;
                 width:100%;
                 

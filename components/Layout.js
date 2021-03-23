@@ -35,9 +35,13 @@ const Layout = ({children,title})=>{
             <Link href="/about"><a>About</a></Link>
             <Link href="/hireme"><a>Hireme</a></Link>
         </header>
-
+        <body className="text-center my-2">
         <h1>{title}</h1>
         {children}
+
+        </body>
+
+       
 
         <footer>
            Maruf's Portfolio &copy; {new Date().getFullYear()} 

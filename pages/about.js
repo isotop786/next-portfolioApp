@@ -3,6 +3,8 @@ import Layout from '../components/Layout'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React ,{Component} from 'react';
 import axios from 'axios';
+import Error from './_error';
+
 // import fetch from 'isomorphic-unfetch';
 
 
@@ -12,11 +14,13 @@ import axios from 'axios';
 
     static async getInitialProps(){
         const res = await fetch('http://api.github.com/users/isotop786');
+        const statusCode = res.status > 200 ? res.status :  false;
         const data = await res.json();
         
         // returning object 
         return{
-            user:data
+            user:data,
+            statusCode
         }
     }
 
@@ -33,7 +37,13 @@ import axios from 'axios';
 
     render(){
 
-        const {user} = this.props;
+        const {user, statusCode} = this.props;
+
+        if(statusCode){
+            return (
+                <Error></Error>
+            )
+        }
 
         return(
             <Layout title="About page">
@@ -44,6 +54,7 @@ import axios from 'axios';
                     I am Maruf. I am a fullstack javascript programmer. I am so passionate to write code, and Javascript and it's libraries and freamwork always amaze me.
     
                 </p>
+                if
                 <img src="/static/Maruf.png" alt="Maruf's Photo" height="200px"/>
             <Link href="/">
             <a>Home Page</a>

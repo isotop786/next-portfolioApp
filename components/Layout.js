@@ -19,7 +19,6 @@ Router.onRouteChangeComplete = ()=>{
 
 Router.onRouteChangeError = (url)=>{
     NProgress.done();
-    alert(`${url} route having some issue`);
 } 
 
 const Layout = ({children,title})=>{

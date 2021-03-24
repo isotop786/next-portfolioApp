@@ -12,21 +12,45 @@ const PostLink = ({title})=>{
 }
 
 export default class Blog extends Component{
+    state={
+        pass:null
+    }
+
+    // componentDidMount(){
+    //     this.setState({
+    //         pass:prompt('Enter key')
+    //     })
+       
+    //     console.log(this.state.pass);
+       
+    // }
     
     render(){
-        return(
-            <Layout title="My Blog">
-                <ul className="list-group">
-                    <PostLink title="React"/>
-                    <PostLink title="Node"/>
-                    <PostLink title="Next"/>
-                    <PostLink title="MERN"/>
-                </ul>
-              
-                
 
 
-            </Layout>
-        )
+        // {if(this.state.pass ==='1234'){
+            return(
+
+                <Layout title="My Blog">
+                    <ul className="list-group">
+                        <PostLink title="React"/>
+                        <PostLink title="Node"/>
+                        <PostLink title="Next"/>
+                        <PostLink title="MERN"/>
+                    </ul>
+                </Layout>
+                )
+        // }else{
+        //     return(
+        //         <div>
+        //             Not authorized.
+        //         </div>
+        //     )
+        // }
+    
+        
     }
-}
+
+       
+        
+    }

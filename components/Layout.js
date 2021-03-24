@@ -28,15 +28,16 @@ const Layout = ({children,title})=>{
                 <title>Maruf's Portfolio</title>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"/>
             </Head>
-        <header>
+        <nav className="navbar navbar-dark bg-dark">
             
             <Link href="/"><a>Home</a></Link>
             <Link href="/about"><a>About</a></Link>
             <Link href="/portfolio"><a>Portfolio</a></Link>
             <Link href="/hireme"><a>Hireme</a></Link>
             <Link href="/blog"><a>Blog</a></Link>
+            <Link href="/downloads"><a>Download</a></Link>
                       
-        </header>
+        </nav>
         <body className="text-center my-2">
         <h1 className="display-4">{title}</h1>
         {children}
@@ -77,6 +78,14 @@ const Layout = ({children,title})=>{
             header a:hover{
                 font-weight:bold;
                 color:white;
+            }
+
+            nav a{
+                color:#fff;
+                font-weight:bold;
+                text-decoration:none;
+                padding:10px;
+                margin-bottom:10px;
             }
 
             footer{

@@ -8,7 +8,7 @@ const Portfolio = ()=>{
 
           
             <div className="row mt-4">
-                <div className="col-4 p-3">
+                <div className="col-sm-4 p-3">
                     <div className="card card-default ">
                     <h3 className="card-header">Hacker News Clone</h3>
                     <div className="card-body">
@@ -22,7 +22,7 @@ const Portfolio = ()=>{
                     </div>
                     </div>
                 </div>
-                <div className="col-4 p-3">
+                <div className="col-sm-4 p-3">
                     <div className="card card-default ">
                     <h3 className="card-header">Githubfinder</h3>
                     <div className="card-body">
@@ -36,7 +36,7 @@ const Portfolio = ()=>{
                     </div>
                     </div>
                 </div>
-                <div className="col-4 p-3">
+                <div className="col-sm-4 p-3">
                     <div className="card card-default ">
                     <h3 className="card-header">Twitter finder</h3>
                     <div className="card-body">
@@ -50,7 +50,7 @@ const Portfolio = ()=>{
                     </div>
                     </div>
                 </div>
-                <div className="col-4 p-3">
+                <div className="col-sm-4 p-3">
                     <div className="card card-default ">
                     <h3 className="card-header">Social Media application </h3>
                     <div className="card-body">

@@ -19,8 +19,8 @@ const Portfolio = ()=>{
                             Password: maruf
                         </p>
                         <div className="d-flex justify-content-between">
-                            <a className="btn btn-info" href="https://my-todo-app-778866.herokuapp.com/">Visit the site</a>
-                            <a className="btn btn-danger " href="#">Code</a>
+                            <a className="btn btn-info" target="_blank" href="https://my-todo-app-778866.herokuapp.com/">Visit the site</a>
+                            <a className="btn btn-danger " target="_blank" href="#">Code</a>
                         </div>
                     </div>
                     </div>
@@ -33,8 +33,8 @@ const Portfolio = ()=>{
                             A movie trailler app using React / Next.js and Node.js as backend
                         </p>
                         <div className="d-flex justify-content-between">
-                            <a className="btn btn-info" href="https://maruf-movieapp.herokuapp.com/">Visit the site</a>
-                            <a className="btn btn-danger " href="https://github.com/isotop786/movieapp-react">Code</a>
+                            <a className="btn btn-info" target="_blank" href="https://maruf-movieapp.herokuapp.com/">Visit the site</a>
+                            <a className="btn btn-danger " target="_blank" href="https://github.com/isotop786/movieapp-react">Code</a>
                         </div>
                     </div>
                     </div>

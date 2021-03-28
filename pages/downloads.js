@@ -29,8 +29,8 @@ export default class Download extends Component{
                                 <ul style={{listStyleType:"none"}}>
                                     <li><Link  href="../static/Maruf Photo .jpg"><a className="btn btn-primary my-2">  Photo</a></Link></li>
                                     <li><Link  href="../static/CVofMaruf.pdf"><a className="btn btn-primary my-2">  CV</a></Link></li>
-                                    <li><Link  href="../static/Certificate.pdf"><a className="btn btn-primary my-2">BSc Certificate</a></Link></li>
-                                    <li><Link  href="../static/Transcript.pdf"><a className="btn btn-primary my-2">BSc Transcript</a></Link></li>
+                                    <li><Link  href="../static/Original BSc Certificate.pdf"><a className="btn btn-primary my-2">BSc Certificate</a></Link></li>
+                                    <li><Link  href="../static/BSc Transcript.pdf"><a className="btn btn-primary my-2">BSc Transcript</a></Link></li>
                                     <li><Link  href="../static/Completion Letter.pdf"><a className="btn btn-primary my-2">BSc Completion Letter</a></Link></li>
                                     <li><Link  href="../static/HSC_CERTIFICATE.pdf"><a className="btn btn-primary my-2">HSC Certificate</a></Link></li>
                                     <li><Link  href="../static/SSC_CERTIFICATE.pdf"><a className="btn btn-primary my-2">SSC Certificate</a></Link></li>

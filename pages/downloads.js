@@ -36,7 +36,7 @@ export default class Download extends Component{
                                     <li><Link  href="../static/SSC_CERTIFICATE.pdf"><a className="btn btn-primary my-2">SSC Certificate</a></Link></li>
                                     <li><Link  href="../static/Passport_Main.jpg"><a className="btn btn-primary my-2">Passport</a></Link></li>
                                     <li><Link  href="../static/বার্থ সার্টিফিকেট.jpg"><a className="btn btn-primary my-2">Birth Certificate</a></Link></li>
-                                    <li><Link  href="../static/NID.png"><a className="btn btn-primary my-2">Bangladeshi NID</a></Link></li>
+                                    <li className="mb-4"><Link  href="../static/NID.jpg"><a className="btn btn-primary my-2">Bangladeshi NID</a></Link></li>
                                 </ul>
                             </div>
                             <div className="col-sm-3"></div>

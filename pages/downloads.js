@@ -26,7 +26,7 @@ export default class Download extends Component{
                                 <h3 className="display-4">Document Download</h3>
                             </div>
                             <div className="col-sm-6 text-center">
-                                <ul className="mb-3" style={{listStyleType:"none"}}>
+                                <ul className="mb-3" style={{listStyleType:"none",marginBottom:"20px"}}>
                                     <li><Link  href="../static/Maruf Photo .jpg"><a className="btn btn-primary my-2">  Photo</a></Link></li>
                                     <li><Link  href="../static/CVofMaruf.pdf"><a className="btn btn-primary my-2">  CV</a></Link></li>
                                     <li><Link  href="../static/Original BSc Certificate.pdf"><a className="btn btn-primary my-2">BSc Certificate</a></Link></li>

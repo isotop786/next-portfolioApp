@@ -26,7 +26,7 @@ export default class Download extends Component{
                                 <h3 className="display-4">Document Download</h3>
                             </div>
                             <div className="col-sm-6 text-center">
-                                <ul style={{listStyleType:"none"}}>
+                                <ul className="mb-3" style={{listStyleType:"none"}}>
                                     <li><Link  href="../static/Maruf Photo .jpg"><a className="btn btn-primary my-2">  Photo</a></Link></li>
                                     <li><Link  href="../static/CVofMaruf.pdf"><a className="btn btn-primary my-2">  CV</a></Link></li>
                                     <li><Link  href="../static/Original BSc Certificate.pdf"><a className="btn btn-primary my-2">BSc Certificate</a></Link></li>
@@ -34,9 +34,9 @@ export default class Download extends Component{
                                     <li><Link  href="../static/Completion Letter.pdf"><a className="btn btn-primary my-2">BSc Completion Letter</a></Link></li>
                                     <li><Link  href="../static/HSC_CERTIFICATE.pdf"><a className="btn btn-primary my-2">HSC Certificate</a></Link></li>
                                     <li><Link  href="../static/SSC_CERTIFICATE.pdf"><a className="btn btn-primary my-2">SSC Certificate</a></Link></li>
-                                    <li><Link  href="../static/Passport_Main.jpg"><a className="btn btn-primary my-2">Passport</a></Link></li>
+                                    <li><Link  href="../static/NewPassport.pdf"><a className="btn btn-primary my-2">Passport</a></Link></li>
                                     <li><Link  href="../static/বার্থ সার্টিফিকেট.jpg"><a className="btn btn-primary my-2">Birth Certificate</a></Link></li>
-                                    <li className="mb-4"><Link  href="../static/NID.jpg"><a className="btn btn-primary my-2">Bangladeshi NID</a></Link></li>
+                                    <li className="mb-4"><Link  href="../static/NID.pdf"><a className="btn btn-primary my-2">Bangladeshi NID</a></Link></li>
                                 </ul>
                             </div>
                             <div className="col-sm-3"></div>

@@ -41,13 +41,13 @@ const Portfolio = ()=>{
                 </div>
                 <div className="col-sm-4 p-3">
                     <div className="card card-default ">
-                    <h3 className="card-header">Githubfinder</h3>
+                    <h3 className="card-header">Vue Finder</h3>
                     <div className="card-body">
                         <p>
-                           Github api and React.js
+                           Github api and vue.js
                         </p>
                         <div className="d-flex justify-content-between">
-                            <a className="btn btn-info" href="#">Visit the site</a>
+                            <a className="btn btn-info" href="http://vue-finder-maruf.herokuapp.com/">Visit the site</a>
                             <a className="btn btn-danger " href="#">Code</a>
                         </div>
                     </div>

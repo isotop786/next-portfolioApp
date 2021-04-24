@@ -47,7 +47,7 @@ const Portfolio = ()=>{
                            Github api and vue.js
                         </p>
                         <div className="d-flex justify-content-between">
-                            <a className="btn btn-info" href="http://vue-finder-maruf.herokuapp.com/">Visit the site</a>
+                            <a className="btn btn-info" target="_blank" href="http://vue-finder-maruf.herokuapp.com/">Visit the site</a>
                             <a className="btn btn-danger " href="#">Code</a>
                         </div>
                     </div>

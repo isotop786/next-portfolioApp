@@ -61,7 +61,7 @@ const Portfolio = ()=>{
                            Movie and TV show searching web application built on vue.js
                         </p>
                         <div className="d-flex justify-content-between">
-                            <a className="btn btn-info" href="http://moogle-movieapp.herokuapp.com/">Visit the site</a>
+                            <a className="btn btn-info" target="_blank" href="http://moogle-movieapp.herokuapp.com/">Visit the site</a>
                             <a className="btn btn-danger " href="#">Code</a>
                         </div>
                     </div>

@@ -55,13 +55,13 @@ const Portfolio = ()=>{
                 </div>
                 <div className="col-sm-4 p-3">
                     <div className="card card-default ">
-                    <h3 className="card-header">Twitter finder</h3>
+                    <h3 className="card-header"></h3>
                     <div className="card-body">
                         <p>
-                            Using twitter API and next.js
+                           Movie and TV show searching web application built on vue.js
                         </p>
                         <div className="d-flex justify-content-between">
-                            <a className="btn btn-info" href="#">Visit the site</a>
+                            <a className="btn btn-info" href="http://moogle-movieapp.herokuapp.com/">Visit the site</a>
                             <a className="btn btn-danger " href="#">Code</a>
                         </div>
                     </div>

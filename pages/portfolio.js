@@ -55,7 +55,7 @@ const Portfolio = ()=>{
                 </div>
                 <div className="col-sm-4 p-3">
                     <div className="card card-default ">
-                    <h3 className="card-header"></h3>
+                    <h3 className="card-header">Moogle</h3>
                     <div className="card-body">
                         <p>
                            Movie and TV show searching web application built on vue.js

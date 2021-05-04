@@ -7,8 +7,8 @@ const Portfolio = ()=>{
             <div className="container">
 
           
-            <div className="row mt-4">
-                <div className="col-sm-4 p-3">
+            <div className="row mt-2">
+                <div className="col-sm-4 p-2">
                     <div className="card card-default ">
                     <h3 className="card-header">TODO APP </h3>
                     <div className="card-body">
@@ -25,7 +25,7 @@ const Portfolio = ()=>{
                     </div>
                     </div>
                 </div>
-                <div className="col-sm-4 p-3">
+                <div className="col-sm-4 p-2">
                     <div className="card card-default ">
                     <h3 className="card-header">Movie Trailer App </h3>
                     <div className="card-body">
@@ -39,7 +39,7 @@ const Portfolio = ()=>{
                     </div>
                     </div>
                 </div>
-                <div className="col-sm-4 p-3">
+                <div className="col-sm-4 p-2">
                     <div className="card card-default ">
                     <h3 className="card-header">Vue Finder</h3>
                     <div className="card-body">
@@ -53,7 +53,7 @@ const Portfolio = ()=>{
                     </div>
                     </div>
                 </div>
-                <div className="col-sm-4 p-3">
+                <div className="col-sm-4 p-2">
                     <div className="card card-default ">
                     <h3 className="card-header">Moogle</h3>
                     <div className="card-body">
@@ -67,7 +67,7 @@ const Portfolio = ()=>{
                     </div>
                     </div>
                 </div>
-                <div className="col-sm-4 p-3">
+                <div className="col-sm-4 p-2">
                     <div className="card card-default ">
                     <h3 className="card-header">Vue.js Authentication Appp </h3>
                     <div className="card-body">
@@ -75,7 +75,21 @@ const Portfolio = ()=>{
                            User authentication app with vue.js, vuex and firebase
                         </p>
                         <div className="d-flex justify-content-between">
-                            <a className="btn btn-info" target="_blank" href="https://vue-auth-firebase.herokuapp.com/dashboard">Visit the site</a>
+                            <a className="btn btn-info" target="_blank" href="http://vue-auth-firebase.herokuapp.com/dashboard">Visit the site</a>
+                            <a className="btn btn-danger " href="#">Code</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div className="col-sm-4 p-2">
+                    <div className="card card-default ">
+                    <h3 className="card-header">Vue Corona tracker </h3>
+                    <div className="card-body">
+                       <p>
+                           Covid-19 tracker with vue.js
+                       </p>
+                        <div className="d-flex justify-content-between">
+                            <a className="btn btn-info" target="_blank" href="http://vue-corona-tracker.herokuapp.com/">Visit the site</a>
                             <a className="btn btn-danger " href="#">Code</a>
                         </div>
                     </div>

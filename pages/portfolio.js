@@ -95,6 +95,21 @@ const Portfolio = ()=>{
                     </div>
                     </div>
                 </div>
+
+                <div className="col-sm-4 p-2">
+                    <div className="card card-default ">
+                    <h3 className="card-header">Task Manager </h3>
+                    <div className="card-body">
+                       <p>
+                           Laravel 8 + Vue.js Task Manager
+                       </p>
+                        <div className="d-flex justify-content-between">
+                            <a className="btn btn-info" target="_blank" href="https://todolisht.herokuapp.com/">View the App</a>
+                            
+                        </div>
+                    </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </Layout>

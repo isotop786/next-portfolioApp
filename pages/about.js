@@ -45,14 +45,14 @@ import Error from './_error';
                         <p className="lead">
                             I am Full stack web developer. I have Bachelor Degree in Software Engineering from Limkokwing Univerisity, Malaysia.
                             I am currently pursuing  MSc in Software Engineering in <strong className="font-weight-bold">University Putra Malaysia (UPM), Malaysia.</strong>
-                            I am experienced in programming with Javascript. For backend I use Node.js with Express.js, for frontend I use Vue and React /`` Next.js. I am very passionate about programming and creating awesome applications.
+                            I am experienced in programming with PHP and Javascript. For backend I use PHP/Laravel and Node.js, for frontend I mostly use Vue.js and also I have exprience with React. I am very passionate about programming and creating awesome applications.
                         </p>
                         <h5 className="font-weight-bold">My Core strengths are</h5>
                         <ul className="list-group font-weight-bold">
                             <li className="list-group-item">Node.js and Express.js</li>
                             <li className="list-group-item">RESTful API with Node.js</li>
                             <li className="list-group-item">Mongo DB and MySQL</li>
-                            <li className="list-group-item">Vue.js and React/Next.js</li>
+                            <li className="list-group-item">Vue.js and React</li>
                         </ul>
                         <div className="mt-4 font-weight-bold">
                             <a target="_blank" href="https://github.com/isotop786?tab=repositories">My github account</a>

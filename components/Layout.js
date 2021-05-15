@@ -93,7 +93,6 @@ const Layout = ({children,title})=>{
                 padding:0.25em;
                 background:#666;
                 color:#fff;
-                position: fixed;
                 bottom: 0px;
                 width:100%;
                 

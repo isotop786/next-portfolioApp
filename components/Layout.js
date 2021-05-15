@@ -89,6 +89,7 @@ const Layout = ({children,title})=>{
             }
 
             footer{
+                margin-top:5rem;
                 text-align:center;
                 padding:0.25em;
                 background:#666;

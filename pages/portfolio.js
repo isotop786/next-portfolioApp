@@ -25,6 +25,22 @@ const Portfolio = ()=>{
                     </div>
                 </div>
 
+            <div className="col-sm-4 p-2">
+                    <div className="card card-default ">
+                    <h3 className="card-header">React Breaking-Bad Cast  </h3>
+                    <div className="card-body">
+                        <p>
+                            Breaking Bad TV show's casts app with React.js and Breaking Bad Api
+                        </p>
+                        <p>Fully mobile responsive design</p>
+                        <div className="d-flex justify-content-between">
+                            <a className="btn btn-info" target="_blank" href="http://react-brakingbad-api.herokuapp.com/">Visit the site</a>
+                            <a className="btn btn-danger " target="_blank" href="https://github.com/isotop786/react-braeking">Code</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
                 <div className="col-sm-4 p-2">
                     <div className="card card-default ">
                     <h3 className="card-header">TODO APP </h3>

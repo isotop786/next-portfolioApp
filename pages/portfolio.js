@@ -24,6 +24,22 @@ const Portfolio = ()=>{
                     </div>
                     </div>
                 </div>
+            
+            <div className="col-sm-4 p-2">
+                    <div className="card card-default ">
+                    <h3 className="card-header">Posty </h3>
+                    <div className="card-body">
+                        <p>
+                            Simple Twitter like application in laravel 8.
+                        </p>
+                        <p>Fully mobile responsive design</p>
+                        <div className="d-flex justify-content-between">
+                            <a className="btn btn-info" target="_blank" href="http://twitter-cloneapp.herokuapp.com/home">Visit the site</a>
+                            <a className="btn btn-danger " target="_blank" href="https://github.com/isotop786/posty-laravel">Code</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
 
             <div className="col-sm-4 p-2">
                     <div className="card card-default ">

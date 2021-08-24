@@ -29,6 +29,7 @@ export default class Download extends Component{
                                 <ul className="mb-3" style={{listStyleType:"none",marginBottom:"20px"}}>
                                     <li><Link  href="../static/Maruf Photo .jpg"><a className="btn btn-primary my-2">  Photo</a></Link></li>
                                     <li><Link  href="../static/CVofMaruf.pdf"><a className="btn btn-primary my-2">  CV</a></Link></li>
+                                    <li><Link  href="../static/MarufCV.bd.pdf"><a className="btn btn-primary my-2">  CV for BD</a></Link></li>
                                     <li><Link  href="../static/Original BSc Certificate.pdf"><a className="btn btn-primary my-2">BSc Certificate</a></Link></li>
                                     <li><Link  href="../static/BSc Transcript.pdf"><a className="btn btn-primary my-2">BSc Transcript</a></Link></li>
                                     <li><Link  href="../static/Completion Letter.pdf"><a className="btn btn-primary my-2">BSc Completion Letter</a></Link></li>

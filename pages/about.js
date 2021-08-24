@@ -44,14 +44,12 @@ import Error from './_error';
                     <div className="col-md-6">
                         <p className="lead">
                             I am Full stack web developer. I have Bachelor Degree in Software Engineering from Limkokwing Univerisity, Malaysia.
-                            I am currently pursuing  MSc in Software Engineering in <strong className="font-weight-bold">University Putra Malaysia (UPM), Malaysia.</strong>
-                            I am experienced in programming with <strong>Javascript</strong>. For backend I use Node.js, for frontend I mostly use <strong>React.js</strong> and also I have exprience with Vue.js. I am very passionate about programming and creating awesome applications.
+                            I am experienced in programming with<strong>PHP</strong>and <strong>Javascript</strong>. For backend I use PHP, for frontend I mostly use <strong>React.js</strong> and also I have exprience with Vue.js. I am very passionate about programming and creating awesome applications.
                         </p>
                         <h5 className="font-weight-bold">My Core strengths are</h5>
                         <ul className="list-group font-weight-bold">
-                            <li className="list-group-item">Node.js and Express.js</li>
-                            <li className="list-group-item">RESTful API with Node.js</li>
-                            <li className="list-group-item">Mongo DB and MySQL</li>
+                            <li className="list-group-item">PHP and MySQL</li>
+                            <li className="list-group-item">Laravel Framework</li>
                             <li className="list-group-item">React.js/Next.js </li>
                             <li className="list-group-item">Vue.js / Vue3</li>
                             <li className="list-group-item">Firebase </li>

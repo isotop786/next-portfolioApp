@@ -41,7 +41,8 @@ const Layout = ({children,title})=>{
         <body className="text-center my-2">
         <h1 className="display-4">{title}</h1>
         {children}
-
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3957859953203017"
+     crossorigin="anonymous"></script>
         </body>
 
        

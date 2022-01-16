@@ -11,17 +11,30 @@ const Portfolio = ()=>{
 
             <div className="col-sm-4 p-2">
                     <div className="card card-default ">
-                    <h3 className="card-header">Github Finder </h3>
-                    <div className="card-body">
-                        <p>
-                           React Github User Finder App.
-                        </p>
-                        <p>Fully mobile responsive design</p>
-                        <div className="d-flex justify-content-between">
-                            <a className="btn btn-info" target="_blank" href="https://react-github-findr.herokuapp.com/">Visit the site</a>
-                            <a className="btn btn-danger " target="_blank" href="#" onClick={()=>alert('Please Contact Maruf. Thaks :)')}>Code</a>
+                        <h3 className="card-header">Bagjour </h3>
+                        <div className="card-body">
+                            <p>
+                           Full stact Node/React MERN Application
+                            </p>
+                            <p>Fully mobile responsive design</p>
+                            <div className="d-flex justify-content-between">
+                                <a className="btn btn-info" target="_blank" href="https://bagjour-frontend.herokuapp.com/">Visit the site</a>
+                                <a className="btn btn-danger " target="_blank" href="#" onClick={()=>alert('Please Contact Maruf. Thaks :)')}>Code</a>
+                            </div>
                         </div>
                     </div>
+                    <div className="card card-default ">
+                        <h3 className="card-header">Github Finder </h3>
+                        <div className="card-body">
+                            <p>
+                            React Github User Finder App.
+                            </p>
+                            <p>Fully mobile responsive design</p>
+                            <div className="d-flex justify-content-between">
+                                <a className="btn btn-info" target="_blank" href="https://react-github-findr.herokuapp.com/">Visit the site</a>
+                                <a className="btn btn-danger " target="_blank" href="#" onClick={()=>alert('Please Contact Maruf. Thaks :)')}>Code</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             <div className="col-sm-4 p-2">

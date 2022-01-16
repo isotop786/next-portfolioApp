@@ -10,11 +10,12 @@ const Portfolio = ()=>{
             <div className="row mt-2">
 
             <div className="col-sm-4 p-2">
+                  
                     <div className="card card-default ">
                         <h3 className="card-header">Bagjour </h3>
                         <div className="card-body">
                             <p>
-                           Full stact Node/React MERN Application
+                           Fullstack React/Node.js MERN app.
                             </p>
                             <p>Fully mobile responsive design</p>
                             <div className="d-flex justify-content-between">
@@ -23,6 +24,9 @@ const Portfolio = ()=>{
                             </div>
                         </div>
                     </div>
+            </div>
+            <div className="col-sm-4 p-2">
+                  
                     <div className="card card-default ">
                         <h3 className="card-header">Github Finder </h3>
                         <div className="card-body">
@@ -36,7 +40,7 @@ const Portfolio = ()=>{
                             </div>
                         </div>
                     </div>
-                </div>
+            </div>
             <div className="col-sm-4 p-2">
                     <div className="card card-default ">
                     <h3 className="card-header">React Time Tracker </h3>
